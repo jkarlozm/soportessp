@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Index</title>
+		<meta name="description" content="Logueo">
+		<meta name="author" content="Karloz">		
+		
+		<!--jquery-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<!--acciones java-->
+		<script type="text/javascript" src="js/Funciones.js"></script>		
+		
+		<!--hojaestilo-->
+		<link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="Css/main.css" rel="stylesheet" type="text/css" />
+		<link href="Css/animate.min.css" rel="stylesheet" type="text/css" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body class="cuerpo">				
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<article>
+						<img src="Image/gob.png" class="imag animated bounceInLeft"/>
+					</article>					
+				</div>
+				<div class="col-md-6">
+					<article>
+						<img src="Image/2.png" class="imag animated bounceInRight" />
+					</article>
+				</div>
+			</div>
+			<div class="row">								
+				<div class="panel panel-primary boxlogin animated flip">
+					<div class="panel panel-heading">
+						Login Area
+					</div>
+					<div class="panel-body">						
+						<form>							
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>		
+									<input type="text" id="Usuario" class="form-control" name="Usuario" placeholder="Usuario" />
+								</div>								
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>					
+									<input type="password" class="form-control" id="Pass" name="Pass" placeholder="Contraseña" />
+								</div>
+							</div>							
+						</form>
+						<div id="respuesta">
+						</div>					
+					</div>
+					<div class="panel-footer">
+						<button type="button" class="btn btn-primary" onclick="acceso()"><span class="glyphicon glyphicon-log-in"> Entrar</span></button>
+					</div>
+				</div>
+			</div>
+			<div class="row animated bounceInLeft">
+				<footer>
+					&copy; Copyright Sistema Realizado por Los Alumnos de La universidad Tecnológica de Puebla
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

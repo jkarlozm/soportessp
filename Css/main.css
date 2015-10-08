@@ -1,0 +1,70 @@
+.largotabla{
+	width: 70%;
+}
+
+.quitar-float{
+	float: none;
+}
+
+.inlineblock{
+	float: none;
+	display: inline-block;
+	margin: -4px;
+}
+
+.igrande{
+	width: 80%;
+}
+
+.largoboton
+{
+	width: 100%;
+}
+
+.nolista li{
+	list-style-type: none;
+}
+
+body{
+	background-image: url(../Image/textura.jpg);
+	color: white;
+	font-family: sans-serif, "MS Trebuchet", Arial;
+	font-size: 14px;
+}
+
+.cuerpo{
+	margin: 0px;
+	padding: 0px;
+	background: url(../Image/gb.jpg) no-repeat fixed;
+	text-align: center;
+	background-size: 100%
+}
+
+.boxlogin{	
+	margin: 20% auto;
+	width: 320px;
+	margin-bottom: 10%;				
+}
+
+.espacioarriba{
+	margin-top: 60px;
+}
+
+.separadortitulo{
+	margin-top: 15px;
+}
+
+.imag{	
+	width: 10em;
+	margin: 3%;
+	margin-bottom: -20%;	
+}
+
+footer{
+	clear: both;
+	box-shadow: 0px 0px 30px white;
+	border-radius: 8px;	
+	padding: 10px;
+	background-color: #204473;
+	margin-top: 30px;
+}
