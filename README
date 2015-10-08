@@ -1,0 +1,10 @@
+El sistema se desarrollo durante la estancia como practicante en la secretaria de seguridad pública
+en el area de informatica, para el control y estadistica de los servios de soporte a ordenadores.
+
+El sistema cuenta con conexion y acciones CRUD a la base de datos utilizando tecnologia MySQL.
+
+Para el diseño y maquetacion se utilizo HTML, CCS3, Bootstrap3, animate.css.
+
+Por el lado de las peticiones y programacion se utilizo PHP, JavaScript, Ajax, Json y jQuery.
+
+Para la graficacion de los datos se empleo la libreria Jpgraph.
